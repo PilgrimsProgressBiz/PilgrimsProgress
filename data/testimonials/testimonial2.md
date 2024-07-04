@@ -1,10 +1,10 @@
 ---
 index: 2
 image: '/images/clients/superballx.jpeg'
-description: "The best team I've worked with, from the start to finish communication was perfect and the work was outstanding any problems these guys always had a solution and quick turn around. I would highly recommend this team 100%."
-name: Gavin McNally
-designation: CEO
-company: SuperBallx
+description: "I am still learning from Jonathan's expertise and the way in which he engages with and supports clients through change and other initiatives. He is truly passionate about what he does and I wouldn't hesitate in recommending his services."
+name: Richard Waddel
+designation: LOREM
+company: LOREM
 website: https://superballx.com/
 date: 'March 5, 2022'
 ---

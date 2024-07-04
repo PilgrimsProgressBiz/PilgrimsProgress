@@ -59,16 +59,16 @@ if (FEATURES.product) {
   })
 }
 
-export const siteName = 'Prixite'
+export const siteName = 'Pilgrims Progress'
 
 /***********            Home Page Main Data             *********** */
 export const homeData = {
   title: `${siteName}`,
   header: 'Transform Your Business With Us',
   headerImage: homeHeaderImage,
-  heading: 'One-stop Solution to Your Business Needs',
+  heading: 'Some Heading goes here',
   homeAim:
-    'We aim to constantly bring innovative solutions to cater to our client’s requirements and expectations.',
+    'Pilgrims Progress is a company specialising in personal tranceformations enabling success, and resulting in achievement and balance',
   contactUsButtonText: 'Contact Us',
   videoButtonText: 'Watch Video',
   youtubeIcon: youtubeIcon,
@@ -97,6 +97,8 @@ export const homeData = {
   ],
 }
 
+
+// TODO: This section must be removed.
 /**********           News and Blogs Data             ********* */
 export const newsAndBlogs = {
   title: `${siteName} - Blogs`,
@@ -116,6 +118,7 @@ export const testimonialsData = {
   rightImg: TestimonialRight,
 }
 
+// TODO: this section to be changed drastically.
 /**********            Home Page Services Data          ********* */
 export const servicesData = {
   servicesPageTitle: 'Services',
