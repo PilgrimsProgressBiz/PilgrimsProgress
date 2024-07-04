@@ -122,62 +122,6 @@ export default function Home({
           />
         </Container>
 
-        {FEATURES.blogs && (
-          <Container maxWidth="xl">
-            <Box pb="5rem" pt="5rem">
-              <Stack
-                direction={'row'}
-                justifyContent="space-between"
-                className="blogs-header-section"
-              >
-                <Typography sx={{ fontSize: 30, fontWeight: 600 }}>
-                  {newsHeader.slice(0, 6)}
-                  <span style={{ color: '#63AC45' }}>
-                    {newsHeader.slice(6, 11)}
-                  </span>
-                </Typography>
-                <Link className="view-all-btn" href="/blogs">
-                  {viewButtonText}
-                  <ArrowForwardOutlinedIcon className="view-link-icon" />
-                </Link>
-              </Stack>
-
-              <Typography my={3}>{newsHeading}</Typography>
-
-              <Container maxWidth="xl" className="posts" disableGutters>
-                {blogs?.slice(0, 2).map((blog: BlogPost, index: number) => (
-                  <div className="card" key={index}>
-                    <Link href={`/blog/${blog.slug}`}>
-                      <Image
-                        className="post-img"
-                        src={blog?.frontmatter?.cover_image}
-                        alt="image"
-                        width={500}
-                        height={500}
-                        layout="responsive"
-                      />
-                    </Link>
-
-                    <div className="post-date">
-                      Posted on {blog.frontmatter.date}
-                    </div>
-
-                    <Link href={`/blog/${blog.slug}`}>
-                      <h3 className="blog-title">{blog.frontmatter.title}</h3>
-                    </Link>
-
-                    <p>{blog.frontmatter.excerpt}</p>
-
-                    <Link href={`/blog/${blog.slug}`} className="read-button">
-                      Read More
-                    </Link>
-                  </div>
-                ))}
-              </Container>
-            </Box>
-          </Container>
-        )}
-
         {FEATURES.product && (
           <Container maxWidth="xl">
             <Box pb="5rem" pt="5rem">

@@ -125,7 +125,7 @@ export const servicesData = {
   servicesPageHeader: 'We are Offering the Amazing Services 🚀',
   servicesHeading: 'Our Services',
   servicesAim:
-    'We aim to constantly bring innovative solutions to cater to our client’s requirements and expectations.',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 }
 
 /**********             About Us Page Data            *************/
