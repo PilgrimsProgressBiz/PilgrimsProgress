@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { homeData, newsAndBlogs, productsList } from '../data/data'
 // eslint-disable-next-line
 //import Chip from '@mui/material/Chip'
-import { aboutUsCardData, servicesData, bannerCardData } from '../data/data'
+import { aboutUsCardData, servicesData } from '../data/data'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Service from '../components/Presentational/Service/Service'
@@ -23,7 +23,7 @@ import 'slick-carousel/slick/slick-theme.css'
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
-import { BlogPost, MDContent, Product } from '../types/interfaces'
+import { MDContent, Product } from '../types/interfaces'
 import { sortByDate, sortByIndex } from '../utils/sort'
 import { getMarkdownAllData, getMarkDownSingleData } from '../utils/markdown'
 import {
@@ -34,11 +34,8 @@ import {
   PRODUCT_PATH,
 } from '../utils/constants'
 import { FEATURES } from '../data/features'
-import Banner from '../components/Presentational/Banner/Banner'
-import MeetTeam from './team'
 
 export default function Home({
-  blogs,
   services,
   testimonials,
   aboutUs,
