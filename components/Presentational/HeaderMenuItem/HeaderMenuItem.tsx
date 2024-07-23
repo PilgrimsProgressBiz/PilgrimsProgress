@@ -13,9 +13,20 @@ const HeaderMenuItem: React.FC<HeaderMenuItemProps> = ({
   text,
   path,
 }) => {
+
+  const isExternal = path.startsWith('http');
+
+  function handleClick() {
+    if (isExternal) {
+      window.open(path, '_blank');
+    } else {
+      handleCloseNavMenu(path);
+    }
+  }
+
   return (
     <MenuItem
-      onClick={() => handleCloseNavMenu(path)}
+      onClick={() => handleClick()}
       sx={{
         height: 70,
         display: 'flex',

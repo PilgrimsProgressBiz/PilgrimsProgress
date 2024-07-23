@@ -42,8 +42,7 @@ const MeetTeam = ({ employees }: MDContent) => {
           Meet the <span className="color-primary">team</span>
         </Typography>
         <Typography fontWeight={450} className="desc">
-          Meet our highly enthusiastic team, who looks for out of box solutions,
-          and aspires to become our customer’s first choice.
+          Meet Jonathan and Terri who ... Lorem lorem.
         </Typography>
 
         <div className="category">

@@ -15,31 +15,34 @@ const ContactForm = () => {
     name: '',
     email: '',
     number: '',
-    company: '',
+    service: '',
     message: '',
   })
 
   const formSuccess = () => toast.success(contactForm.success)
   const formError = () => toast.error(contactForm.error)
 
-  const handleForm = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+const handleForm = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    const res = await fetch('/api/sendgrid', {
-      body: JSON.stringify(form),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      method: 'POST',
-    })
-    formSuccess()
-    setForm({ name: '', email: '', number: '', company: '', message: '' })
+  const res = await fetch('/api/send-email', {
+    body: JSON.stringify(form),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    method: 'POST',
+  });
 
-    const { error } = await res.json()
-    if (error) {
-      formError()
-    }
+  const result = await res.json();
+  if (result.error) {
+    formError();
+  } else {
+    formSuccess();
+    setForm({ name: '', email: '', number: '', service: '', message: '' });
   }
+};
+
+
 
   return (
     <>
@@ -89,14 +92,19 @@ const ContactForm = () => {
           </Grid>
           <Grid item xs={6} className="input-field-container">
             <BusinessCenterOutlinedIcon className="input-field-icon" />
-            <input
-              name="company"
+            <select
+              name="service"
               className="input-field"
-              type="text"
-              placeholder="Company Name"
-              value={form.company}
-              onChange={(e) => setForm({ ...form, company: e.target.value })}
-            ></input>
+              value={form.service}
+              onChange={(e) => setForm({ ...form, service: e.target.value })}
+            >
+              <option value="" disabled>
+                Which service would you like?
+              </option>
+              <option value="counselling">Counselling</option>
+              <option value="Alternative Dispute Resolution">Alternative Dispute Resolution</option>
+              <option value="Workshop Delivery">Workshop Delivery</option>
+            </select>
           </Grid>
           <Grid item xs={100} md={100} className="input-field-container">
             <MessageOutlinedIcon className="input-field-icon" />

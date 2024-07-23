@@ -37,7 +37,6 @@ const ContactUs = () => {
           <ContactForm />
         </Box>
 
-        {/* <Subscribe /> */}
       </Container>
     </>
   )

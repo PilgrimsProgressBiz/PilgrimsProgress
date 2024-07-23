@@ -40,6 +40,9 @@
 
   .image {
     border-radius: 0.3rem;
+    width: 25rem;
+    height: auto;
+
   }
 }
 
@@ -163,5 +166,11 @@
 @media screen and (max-width: 450px) {
   .stack-container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.image-container {
+  p {
+    font-size: 18px;
   }
 }

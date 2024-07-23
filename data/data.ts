@@ -44,13 +44,12 @@ export const pages = [
     path: '/team',
     text: 'Meet the team',
   },
+  {
+    path: 'https://britishacademicguardians.com/',
+    text: 'UK Guardianship'
+  }
 ]
-if (FEATURES.blogs) {
-  pages.push({
-    path: '/blogs',
-    text: 'News & Blogs',
-  })
-}
+
 
 if (FEATURES.product) {
   pages.push({
@@ -66,7 +65,7 @@ export const homeData = {
   title: `${siteName}`,
   header: 'Transform Your Business With Us',
   headerImage: homeHeaderImage,
-  heading: 'Some Heading goes here',
+  heading: 'Welcome to Pilgrim\'s Progress',
   homeAim:
     'Pilgrims Progress is a company specialising in personal tranceformations enabling success, and resulting in achievement and balance',
   contactUsButtonText: 'Contact Us',
@@ -271,12 +270,7 @@ export const joinUsLinkIcons = [
 
 /*********          Meet the Team Page Data            ************* */
 export const categories: Array<string> = [
-  'All',
-  'Machine Learning',
-  'Web App Development',
-  'Mobile App Development',
-  'Scraping',
-  'Quality Assurance',
+  'All'
 ]
 
 export interface Employee {
@@ -295,19 +289,19 @@ export interface Employee {
 
 /**************             Footer Data         ************ */
 export const footerData = {
-  copyright: `Prixite © ${new Date().getFullYear()}. All Rights Reserved`,
+  copyright: `Pilgrims Progress © ${new Date().getFullYear()}. All Rights Reserved`,
   details: [
     {
       icon: LocationIcon,
-      desc: 'Sheridan, WY, USA | Lahore, Pakistan',
+      desc: '12 Mount Tavy Road, Tavistock, PL19 9JB',
     },
     {
       icon: PhoneIcon,
-      desc: '+1 (628) 277-3693',
+      desc: '+44 (0)7 970 691 773',
     },
     {
       icon: MailIcon,
-      desc: 'hi@prixite.com',
+      desc: 'admin@pilgrimsprogress.biz',
     },
   ],
   info: {

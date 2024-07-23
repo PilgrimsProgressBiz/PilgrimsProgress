@@ -35,6 +35,7 @@ import {
 } from '../utils/constants'
 import { FEATURES } from '../data/features'
 import Banner from '../components/Presentational/Banner/Banner'
+import MeetTeam from './team'
 
 export default function Home({
   blogs,
@@ -70,12 +71,6 @@ export default function Home({
         </Container>
 
         <Container maxWidth="xl">
-          <Banner
-            header={bannerCardData.aboutUsHeader}
-            heading={bannerCardData.aboutUsDescription}
-            images={bannerCardData.images}
-            partnersCard={bannerCardData.partnersCard}
-          />
           <Box pb="5rem" pt={{ xs: '0rem', md: '5rem' }}>
             <SectionHeader heading={servicesHeading} />
             <Typography mt={2} mb={6}>
