@@ -166,9 +166,9 @@ export const aboutUsPageData = {
 /**********             About US Card Data               *********** */
 export const aboutUsCardData = {
   aboutUsHeader: 'About Us',
-  aboutUsHeading: 'Fastest Growing IT Company',
+  aboutUsHeading: 'Some slogan here',
   aboutUsDescription:
-    "Prixite is a software development company specializing in Python, Machine Learning, and JavaScript. We have a team of skilled developers with a wealth of experience in these areas, and we pride ourselves on delivering top-quality software solutions to our clients. Whether you need a simple website or a complex machine learning application, we have the expertise to get the job done. At Prixite, we are committed to providing excellent customer service and delivering results that exceed our clients' expectations.",
+    "Jonathan and Terri-Louise provide coaching and counselling services from their purpose built location on the banks of the river Tavy in tavistock dartmoor.",
   images: [
     {
       img: aboutUsp1,
@@ -189,53 +189,6 @@ export const aboutUsCardData = {
     {
       img: aboutUsp5,
       className: 'img-p5',
-    },
-  ],
-}
-
-/**********             Banner Card Data               *********** */
-export const bannerCardData = {
-  aboutUsHeader: 'Official US odoo Partners',
-  aboutUsDescription:
-    'PRIXITE. is the Official US Partner of odoo and we strive to provide cutting-edge solutions tailored to elevate your business operations',
-  images: [
-    {
-      img: bannerP1,
-      className: 'img-p1',
-    },
-    {
-      img: banner,
-      className: 'img-p2',
-    },
-    {
-      img: bannerP2,
-      className: 'img-p3',
-    },
-    {
-      img: bannerP3,
-      className: 'img-p4',
-    },
-    {
-      img: bannerP4,
-      className: 'img-p5',
-    },
-    {
-      img: bannerP5,
-      className: 'img-p6',
-    },
-  ],
-  partnersCard: [
-    {
-      title: 'Odoo Implementation',
-      description:
-        'Prixite transforms your business needs into seamless Odoo implementations, optimizing processes for sustained growth.',
-      img: bannerP6,
-    },
-    {
-      title: 'Odoo Custom Development',
-      description:
-        'Prixite crafts tailored Odoo solutions, seamlessly integrating custom features for a unified and efficient platform',
-      img: bannerP6,
     },
   ],
 }
