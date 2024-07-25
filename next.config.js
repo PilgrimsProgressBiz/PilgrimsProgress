@@ -8,8 +8,8 @@ const nextConfig = {
     path: '',
     unoptimized: true,
   },
-  basePath: isProd ? '/PilgrimsProgress' : '',
-  assetPrefix: isProd ? '/PilgrimsProgress/' : '',
+  basePath: isProd ? '' : '',
+  assetPrefix: isProd ? '/' : '',
 }
 
 module.exports = nextConfig;
