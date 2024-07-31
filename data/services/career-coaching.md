@@ -1,5 +1,5 @@
 ---
-index: 6
+index: 3
 title: 'Pilgrims Progress - Career Coaching'
 header: 'Career Coaching'
 description: 'This service is provided by Jonathan Pilgrim'

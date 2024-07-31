@@ -1,5 +1,5 @@
 ---
-index: 7
+index: 4
 title: 'Pilgrims Progress - Life Coaching'
 header: 'Life Coaching'
 description: 'This service is provided by Jonathan Pilgrim'

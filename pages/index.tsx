@@ -68,6 +68,16 @@ export default function Home({
         </Container>
 
         <Container maxWidth="xl">
+          <AboutUs
+            header={aboutUs.frontmatter.title}
+            heading={aboutUs.frontmatter.header}
+            description={aboutUs.frontmatter.description}
+            images={images}
+          />
+        </Container>
+
+
+        <Container maxWidth="xl">
           <Box pb="5rem" pt={{ xs: '0rem', md: '5rem' }}>
             <SectionHeader heading={servicesHeading} />
             <Typography mt={2} mb={6}>
@@ -105,14 +115,7 @@ export default function Home({
           </Box>
         </Container>
 
-        <Container maxWidth="xl">
-          <AboutUs
-            header={aboutUs.frontmatter.title}
-            heading={aboutUs.frontmatter.header}
-            description={aboutUs.frontmatter.description}
-            images={images}
-          />
-        </Container>
+
 
         {FEATURES.product && (
           <Container maxWidth="xl">

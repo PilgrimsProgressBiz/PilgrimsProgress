@@ -1,5 +1,5 @@
 ---
-index: 10
+index: 7
 title: 'Pilgrims Progress - Family Therapy'
 header: 'Family Therapy'
 description: 'This service is provided by Terri-Louise'

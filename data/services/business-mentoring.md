@@ -1,5 +1,5 @@
 ---
-index: 5
+index: 2
 title: 'Pilgrims Progress - Business Mentoring'
 header: 'Business Mentoring'
 description: 'This service is provided by Jonathan Pilgrim'

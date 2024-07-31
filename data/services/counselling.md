@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 5
 title: 'Pilgrims Progress - Counselling'
 header: 'Counselling'
 description: 'Terri Louise specialises in working with children using techniques to understnad their perspective of the world.'

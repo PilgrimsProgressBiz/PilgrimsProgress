@@ -13,13 +13,6 @@ import aboutUsp2 from '../public/images/aboutUs-p2.png'
 import aboutUsp3 from '../public/images/aboutUs-p3.png'
 import aboutUsp4 from '../public/images/aboutUs-p4.png'
 import aboutUsp5 from '../public/images/aboutUs-p5.png'
-import banner from '../public/images/banner.png'
-import bannerP1 from '../public/images/banner-p1.png'
-import bannerP2 from '../public/images/banner-p2.png'
-import bannerP3 from '../public/images/banner-p3.png'
-import bannerP4 from '../public/images/banner-p4.png'
-import bannerP5 from '../public/images/banner-p5.png'
-import bannerP6 from '../public/images/banner-p6.png'
 import likes from '../public/images/handsClapping.png'
 import comments from '../public/images/chatTeardropDots.png'
 import scrollToTop from '../public/images/scrollToTop.png'
@@ -67,7 +60,7 @@ export const homeData = {
   headerImage: homeHeaderImage,
   heading: 'Welcome to Pilgrim\'s Progress',
   homeAim:
-    'Pilgrims Progress is a company specialising in personal tranceformations enabling success, and resulting in achievement and balance',
+    'Pilgrims Progress is a company specialising in personal change enabling success, and resulting in achievement and balance',
   contactUsButtonText: 'Contact Us',
   videoButtonText: 'Watch Video',
   youtubeIcon: youtubeIcon,
@@ -124,7 +117,7 @@ export const servicesData = {
   servicesPageHeader: 'We are Offering the Amazing Services 🚀',
   servicesHeading: 'Our Services',
   servicesAim:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    '',
 }
 
 /**********             About Us Page Data            *************/
