@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Typography, Container, Button } from '@mui/material'
-import { newsAndBlogs } from '../../data/data'
 import Head from 'next/head'
 import Link from 'next/link'
 import fs from 'fs'
