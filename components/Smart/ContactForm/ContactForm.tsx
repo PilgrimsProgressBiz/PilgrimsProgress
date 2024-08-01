@@ -101,9 +101,14 @@ const handleForm = async (e: React.FormEvent<HTMLFormElement>) => {
               <option value="" disabled>
                 Which service would you like?
               </option>
-              <option value="counselling">Counselling</option>
-              <option value="Alternative Dispute Resolution">Alternative Dispute Resolution</option>
-              <option value="Workshop Delivery">Workshop Delivery</option>
+              <option value="Executive Coaching">Executive Coaching</option>
+              <option value="Business Mentoring">Business Mentoring</option>
+              <option value="Career Coaching">Career Coaching</option>
+              <option value="Life Coaching">Life Coaching</option>
+              <option value="Counselling">Counselling</option>
+              <option value="Young People Counselling">Young People Counselling</option>
+              <option value="Family Therapy">Family Therapy</option>
+              <option value="UK Guardianship">UK Guardianship</option>
             </select>
           </Grid>
           <Grid item xs={100} md={100} className="input-field-container">

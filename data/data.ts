@@ -8,25 +8,34 @@ import TestimonialLeft from '../public/images/testimonial-left.svg'
 import TestimonialRight from '../public/images/testimonial-right.svg'
 import LinkdeinIcon from '../public/images/linkdein-icon.png'
 import InstagramIcon from '../public/images/instagram-icon.png'
+import aboutUsp1 from '../public/images/aboutUs-p1.png'
+import aboutUsp2 from '../public/images/aboutUs-p2.png'
+import aboutUsp3 from '../public/images/aboutUs-p3.png'
+import aboutUsp4 from '../public/images/aboutUs-p4.png'
+import aboutUsp5 from '../public/images/aboutUs-p5.png'
+
 
 /*********          Header Menu Data            ********** */
 export const pages = [
   {
     path: '/',
-    text: 'Services',
+    text: 'Meet the team',
+    id: 'meet-the-team-section'
+  },
+  {
+    path: '/',
+    text: 'Our Services',
+    id: 'services-section'
+  },
+  {
+    path: 'https://britishacademicguardians.com/',
+    text: 'UK Guardianship'
   },
   {
     path: '/contact-us',
     text: 'Contact Us',
   },
-  {
-    path: '/',
-    text: 'Meet the team',
-  },
-  {
-    path: 'https://britishacademicguardians.com/',
-    text: 'UK Guardianship'
-  }
+  
 ]
 
 
@@ -106,7 +115,7 @@ export const meetTheTeamData = {
       name: 'Jonathan Pilgrim',
       image: '/images/employees/Jonathan_new.jpg',
       imageB: '/images/employees/Jonathan_new.jpg',
-      description: `Jonathan is a highly experienced coach and trainer with a background in HR and Training. He has worked in a variety of sectors including retail, manufacturing, and the public sector. He has a passion for helping people to reach their full potential and has a reputation for being able to help people to make lasting change in their lives.`,
+      description: `Lorem ipsum dolor sit amet here if needed`,
     },
     {
       id: 2,
@@ -114,16 +123,38 @@ export const meetTheTeamData = {
       name: 'Terri-Louise Pilgrim',
       image: '/images/employees/Terri-Louise_new.jpg',
       imageB: '/images/employees/Terri-Louise_new.jpg',
-      description: `Terri-Louise is a qualified counsellor and coach. She has a background in the NHS and has worked in a variety of settings including GP surgeries, schools, and colleges. She has a passion for helping people to overcome their difficulties and to reach their full potential.`,
+      description: `Lorem Ipsum Dolor sit amet here if needed`,
     }
-  ]
+  ],
+  images: [
+    {
+      img: aboutUsp1,
+      className: 'img-p1',
+    },
+    {
+      img: aboutUsp2,
+      className: 'img-p2',
+    },
+    {
+      img: aboutUsp3,
+      className: 'img-p3',
+    },
+    {
+      img: aboutUsp4,
+      className: 'img-p4',
+    },
+    {
+      img: aboutUsp5,
+      className: 'img-p5',
+    },
+  ],
 }
 
 
 /*********          Contact Us Page Data            ************* */
 export const contactUs = {
   title: `${siteName} - Contact Us`,
-  heading: 'Contact Us & Start Build Amazing Products',
+  heading: 'Contact Us',
 }
 
 /**********             Careers Page Data           ************* */

@@ -1,7 +1,7 @@
 import { Box, Container, Typography, Grid, Stack, Button } from '@mui/material'
 // eslint-disable-next-line
 import Image from 'next/image'
-import { homeData, productsList } from '../data/data'
+import { meetTheTeamData, homeData, productsList } from '../data/data'
 // eslint-disable-next-line
 //import Chip from '@mui/material/Chip'
 import {servicesData } from '../data/data'
@@ -44,6 +44,7 @@ export default function Home({
   const { title } = homeData
   const { servicesHeading, servicesAim } = servicesData
   const router = useRouter()
+  const images = meetTheTeamData.images
 
   return (
     <>
@@ -62,12 +63,13 @@ export default function Home({
             header={aboutUs.frontmatter.title}
             heading={aboutUs.frontmatter.header}
             description={aboutUs.frontmatter.description}
+            images={images}
           />
         </Container>
 
 
         <Container maxWidth="xl">
-          <Box pb="5rem" pt={{ xs: '0rem', md: '5rem' }}>
+          <Box pb="5rem" id="services-section" pt={{ xs: '0rem', md: '5rem' }}>
             <SectionHeader heading={servicesHeading} />
             <Typography mt={2} mb={6}>
               {servicesAim}

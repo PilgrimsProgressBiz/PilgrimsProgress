@@ -6,22 +6,30 @@ interface HeaderMenuItemProps {
   handleCloseNavMenu: (path: string) => void
   text: string
   path: string
+  id?: string
 }
 
 const HeaderMenuItem: React.FC<HeaderMenuItemProps> = ({
   handleCloseNavMenu,
   text,
   path,
+  id,
 }) => {
 
   const isExternal = path.startsWith('http');
 
   function handleClick() {
-    if (isExternal) {
-      window.open(path, '_blank');
-    } else {
-      handleCloseNavMenu(path);
+    if (id) {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({behavior : 'smooth'})
+      }
     }
+    else if (isExternal) {
+      window.open(path, '_blank');
+    }
+    handleCloseNavMenu(path);
+
   }
 
   return (

@@ -85,6 +85,7 @@ const HeaderMenu = () => {
             handleCloseNavMenu={handleCloseNavMenu}
             text={page.text}
             path={page.path}
+            id={page.id}
           />
         ))}
       </Menu>
