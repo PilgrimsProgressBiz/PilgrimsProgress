@@ -101,6 +101,7 @@ export const meetTheTeamData = {
   visionAim: '',
   teamMembers: [
     {
+      id: 1,
       title: 'FCIPD, Assoc of Coaching and Master NLP',
       name: 'Jonathan Pilgrim',
       image: '/images/employees/Jonathan_new.jpg',
@@ -108,10 +109,11 @@ export const meetTheTeamData = {
       description: `Jonathan is a highly experienced coach and trainer with a background in HR and Training. He has worked in a variety of sectors including retail, manufacturing, and the public sector. He has a passion for helping people to reach their full potential and has a reputation for being able to help people to make lasting change in their lives.`,
     },
     {
+      id: 2,
       title: 'Lorem Ipsum',
       name: 'Terri-Louise Pilgrim',
-      image: '/images/employees/Terri_new.jpg',
-      imageB: '/images/employees/Terri_new.jpg',
+      image: '/images/employees/Terri-Louise_new.jpg',
+      imageB: '/images/employees/Terri-Louise_new.jpg',
       description: `Terri-Louise is a qualified counsellor and coach. She has a background in the NHS and has worked in a variety of settings including GP surgeries, schools, and colleges. She has a passion for helping people to overcome their difficulties and to reach their full potential.`,
     }
   ]

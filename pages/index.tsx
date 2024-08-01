@@ -124,7 +124,6 @@ export default function Home({
                   endIcon={<ArrowForwardOutlinedIcon />}
                   onClick={() => router.push('/product')}
                 >
-                  {viewButtonText}
                 </Button>
               </Stack>
 
