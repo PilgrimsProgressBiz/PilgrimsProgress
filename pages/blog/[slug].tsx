@@ -5,7 +5,6 @@ import fs from 'fs'
 import Image from 'next/image'
 import { LinkedinShareButton, FacebookShareButton } from 'next-share'
 import { Box, Container, Stack, Typography } from '@mui/material'
-import { joinUsLinkIcons, newsAndBlogs } from '../../data/data'
 import { BlogPostWithContent, Blog } from '../../types/interfaces'
 import { BLOGS_PATH } from '../../utils/constants'
 import {
