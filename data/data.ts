@@ -6,27 +6,13 @@ import PhoneIcon from '../public/images/phone-icon.png'
 import MailIcon from '../public/images/mail-icon.png'
 import TestimonialLeft from '../public/images/testimonial-left.svg'
 import TestimonialRight from '../public/images/testimonial-right.svg'
-import AboutUsVision from '../public/images/about-us-vision.png'
 import LinkdeinIcon from '../public/images/linkdein-icon.png'
-import aboutUsp1 from '../public/images/aboutUs-p1.png'
-import aboutUsp2 from '../public/images/aboutUs-p2.png'
-import aboutUsp3 from '../public/images/aboutUs-p3.png'
-import aboutUsp4 from '../public/images/aboutUs-p4.png'
-import aboutUsp5 from '../public/images/aboutUs-p5.png'
-import likes from '../public/images/handsClapping.png'
-import comments from '../public/images/chatTeardropDots.png'
-import scrollToTop from '../public/images/scrollToTop.png'
 import InstagramIcon from '../public/images/instagram-icon.png'
-import { FEATURES } from '../data/features'
 
 /*********          Header Menu Data            ********** */
 export const pages = [
   {
-    path: '/about-us',
-    text: 'About Us',
-  },
-  {
-    path: '/services',
+    path: '/',
     text: 'Services',
   },
   {
@@ -34,7 +20,7 @@ export const pages = [
     text: 'Contact Us',
   },
   {
-    path: '/team',
+    path: '/',
     text: 'Meet the team',
   },
   {
@@ -44,12 +30,7 @@ export const pages = [
 ]
 
 
-if (FEATURES.product) {
-  pages.push({
-    path: '/product',
-    text: 'Products',
-  })
-}
+
 
 export const siteName = 'Pilgrims Progress'
 
@@ -90,18 +71,7 @@ export const homeData = {
 }
 
 
-// TODO: This section must be removed.
-/**********           News and Blogs Data             ********* */
-export const newsAndBlogs = {
-  title: `${siteName} - Blogs`,
-  header: 'News & Blogs',
-  heading:
-    'We aim to constantly bring innovative solutions to cater to our client’s requirements and expectations.',
-  viewButtonText: 'View All',
-  likesImg: likes,
-  commentsImg: comments,
-  scrollToTopImg: scrollToTop,
-}
+
 
 /**********           Testimonials Data             ********** */
 export const testimonialsData = {
@@ -120,71 +90,33 @@ export const servicesData = {
     '',
 }
 
-/**********             About Us Page Data            *************/
-export const aboutUsPageData = {
-  title: 'About Us',
-  header: 'We are Changing the Whole Game',
-  heading: 'Fastest Growing IT Company',
-  aim: 'We aim to constantly bring innovative solutions to cater to our client’s requirements and expectations.',
-  description: `Prixite is one online technology solutions provider company that is
-  considered as a new breed of thinkers who is driven to create
-  effective business solutions for its clients. We aspire to become
-  our client’s first choice when it comes to being a world leader in
-  the progress and advancement of businesses through digital
-  platforms.`,
+/**********             Meet The Team Data            *************/
+export const meetTheTeamData = {
+  title: 'Meet The Team',
+  header: '',
+  heading: '',
+  aim: '',
+  description: `Jonathan and Terri-Louise provide coaching and counselling services from their purpose built location on the banks of the river Tavy in tavistock dartmoor.`,
   visionTitle: 'Our Vision',
-  visionAim:
-    'We aim to constantly bring innovative solutions to cater to our client’s requirements and expectations.',
-  visionImage: AboutUsVision,
-  visionData: [
+  visionAim: '',
+  teamMembers: [
     {
-      value: '30+',
-      text: 'Years of Experience',
+      title: 'FCIPD, Assoc of Coaching and Master NLP',
+      name: 'Jonathan Pilgrim',
+      image: '/images/employees/Jonathan_new.jpg',
+      imageB: '/images/employees/Jonathan_new.jpg',
+      description: `Jonathan is a highly experienced coach and trainer with a background in HR and Training. He has worked in a variety of sectors including retail, manufacturing, and the public sector. He has a passion for helping people to reach their full potential and has a reputation for being able to help people to make lasting change in their lives.`,
     },
     {
-      value: '27',
-      text: 'Offices Worldwide',
-    },
-    {
-      value: '150',
-      text: 'National Markets',
-    },
-    {
-      value: '2M+',
-      text: 'Clients a Year',
-    },
-  ],
+      title: 'Lorem Ipsum',
+      name: 'Terri-Louise Pilgrim',
+      image: '/images/employees/Terri_new.jpg',
+      imageB: '/images/employees/Terri_new.jpg',
+      description: `Terri-Louise is a qualified counsellor and coach. She has a background in the NHS and has worked in a variety of settings including GP surgeries, schools, and colleges. She has a passion for helping people to overcome their difficulties and to reach their full potential.`,
+    }
+  ]
 }
 
-/**********             About US Card Data               *********** */
-export const aboutUsCardData = {
-  aboutUsHeader: 'About Us',
-  aboutUsHeading: 'Some slogan here',
-  aboutUsDescription:
-    "Jonathan and Terri-Louise provide coaching and counselling services from their purpose built location on the banks of the river Tavy in tavistock dartmoor.",
-  images: [
-    {
-      img: aboutUsp1,
-      className: 'img-p1',
-    },
-    {
-      img: aboutUsp2,
-      className: 'img-p2',
-    },
-    {
-      img: aboutUsp3,
-      className: 'img-p3',
-    },
-    {
-      img: aboutUsp4,
-      className: 'img-p4',
-    },
-    {
-      img: aboutUsp5,
-      className: 'img-p5',
-    },
-  ],
-}
 
 /*********          Contact Us Page Data            ************* */
 export const contactUs = {
@@ -254,8 +186,8 @@ export const footerData = {
     title: 'More Information',
     contactUs: [
       {
-        text: 'About Us',
-        path: '/about-us',
+        text: 'Meet The Team',
+        path: '/',
       },
       {
         text: 'Contact us',
@@ -263,12 +195,8 @@ export const footerData = {
       },
       {
         text: 'Services',
-        path: '/services',
-      },
-      {
-        text: 'News & Blogs',
-        path: '/blogs',
-      },
+        path: '/',
+      }
     ],
   },
   joinUs: {

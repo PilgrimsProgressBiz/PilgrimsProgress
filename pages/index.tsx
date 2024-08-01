@@ -1,14 +1,14 @@
 import { Box, Container, Typography, Grid, Stack, Button } from '@mui/material'
 // eslint-disable-next-line
 import Image from 'next/image'
-import { homeData, newsAndBlogs, productsList } from '../data/data'
+import { homeData, productsList } from '../data/data'
 // eslint-disable-next-line
 //import Chip from '@mui/material/Chip'
-import { aboutUsCardData, servicesData } from '../data/data'
+import {servicesData } from '../data/data'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Service from '../components/Presentational/Service/Service'
-import AboutUs from '../components/Presentational/AboutUs/AboutUs'
+import MeetTheTeam from '../components/Presentational/MeetTheTeam/MeetTheTeam'
 import SectionHeader from '../components/Presentational/SectionHeader/SectionHeader'
 // eslint-disable-next-line
 import Testimonials from '../components/Smart/Testimonials/Testimonials'
@@ -43,16 +43,6 @@ export default function Home({
 }: MDContent) {
   const { title } = homeData
   const { servicesHeading, servicesAim } = servicesData
-  const { images } = aboutUsCardData
-  const {
-    // eslint-disable-next-line
-    header: newsHeader,
-    // eslint-disable-next-line
-    heading: newsHeading,
-    // eslint-disable-next-line
-    viewButtonText,
-  } = newsAndBlogs
-  // eslint-disable-next-line
   const router = useRouter()
 
   return (
@@ -68,11 +58,10 @@ export default function Home({
         </Container>
 
         <Container maxWidth="xl">
-          <AboutUs
+          <MeetTheTeam
             header={aboutUs.frontmatter.title}
             heading={aboutUs.frontmatter.header}
             description={aboutUs.frontmatter.description}
-            images={images}
           />
         </Container>
 
@@ -114,8 +103,6 @@ export default function Home({
             </Slider>
           </Box>
         </Container>
-
-
 
         {FEATURES.product && (
           <Container maxWidth="xl">
@@ -164,11 +151,6 @@ export default function Home({
 
         {FEATURES.testimonials && <Testimonials testimonials={testimonials} />}
 
-        {/* {FEATURES.subscribe && (
-          <Container maxWidth="xl" sx={{ marginTop: 10 }}>
-            <Subscribe />
-          </Container>
-        )} */}
       </div>
     </>
   )
