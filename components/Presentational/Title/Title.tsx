@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import React from 'react'
 import { siteName } from '../../../data/data'
 import Image from 'next/image'
@@ -12,10 +12,10 @@ const Title = () => {
         <Box className="title-image">
           <Image src={logoImg.src} alt={siteName} width={30} height={30} />
         </Box>
-        <Typography className="title-heading">
+        {/* <Typography className="title-heading">
           {siteName}
           <span style={{ color: '#63AC45' }}>.</span>
-        </Typography>
+        </Typography> */}
       </Link>
     </Box>
   )

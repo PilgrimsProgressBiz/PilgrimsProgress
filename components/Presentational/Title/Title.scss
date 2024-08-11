@@ -7,7 +7,14 @@
   .title-image {
     margin-right: 5px;
     cursor: pointer;
+
+    img {
+      width: 200px;
+      height: auto;
+    }
   }
+
+
   .title-heading {
     color: black;
     font-size: 22px;
