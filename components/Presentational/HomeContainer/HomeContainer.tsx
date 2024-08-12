@@ -1,5 +1,5 @@
 import { Stack, Box, Typography } from '@mui/material'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import ContactButton from '../../Smart/ContactButton/ContactButton'
 import Image from 'next/image'
 import { homeData } from '../../../data/data'
@@ -7,7 +7,7 @@ import { homeData } from '../../../data/data'
 const HomeContainer = () => {
   const {
     header,
-    headerImage,
+    headerImages,
     heading,
     homeAim,
     contactUsButtonText,
@@ -16,6 +16,22 @@ const HomeContainer = () => {
     // eslint-disable-next-line
     youtubeIcon,
   } = homeData
+
+  const [currentImageIndex, setCurrentImageIndex] = React.useState(0)
+  const [opacity, setOpacity] = useState(1)
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setOpacity(0);
+
+      setTimeout(() => {
+        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % headerImages.length);
+        setOpacity(1);
+      }, 1000) // This should match the fade-out duration
+    }, 3000) // Switch image every 3 seconds
+
+    return () => clearInterval(intervalId) // Cleanup interval on component unmount
+  }, [headerImages.length])
   return (
     <Stack
       pt={{ xs: '20px', md: '60px', lg: '30px' }}
@@ -48,8 +64,17 @@ const HomeContainer = () => {
         </Box>
       </Box>
 
-      <Box>
-        <Image src={headerImage} alt="service-image" layout="responsive" />
+            <Box>
+        <Image
+          src={headerImages[currentImageIndex]}
+          alt="service-image"
+          layout="responsive"
+          className='headerImageSlideShow'
+          style={{ 
+            transition: 'opacity 1s ease-in-out',
+            opacity: opacity 
+          }}
+        />
       </Box>
     </Stack>
   )

@@ -1,4 +1,5 @@
-import homeHeaderImage from '../public/images/headerImage.png'
+import homeHeaderImageJonathan from '../public/images/employees/Jonathan_new.jpg'
+import homeHeaderImageTerriLouise from '../public/images/employees/Terri-Louise_new.jpg'
 import youtubeIcon from '../public/images/youtubeIcon.png'
 import FacebookIcon from '../public/images/blog-detail-fb.png'
 import LocationIcon from '../public/images/location-icon.png'
@@ -47,7 +48,7 @@ export const siteName = 'Pilgrims Progress'
 export const homeData = {
   title: `${siteName}`,
   header: 'Transform Your Business With Us',
-  headerImage: homeHeaderImage,
+  headerImages: [homeHeaderImageJonathan, homeHeaderImageTerriLouise],
   heading: 'Welcome to Pilgrim\'s Progress',
   homeAim:
     'Pilgrims Progress is a company specialising in personal change enabling success, and resulting in achievement and balance',
