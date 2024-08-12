@@ -27,6 +27,7 @@ export interface ServicePost {
     header: string
     description: string
     logo_image: string
+    href: null | string
   }
   slug: string
 }

@@ -1,13 +1,5 @@
 import React from 'react'
 import { AppBar, Box, Container, Toolbar } from '@mui/material'
-// eslint-disable-next-line
-import Image from 'next/image'
-// eslint-disable-next-line
-import { NextRouter, useRouter } from 'next/router'
-// eslint-disable-next-line
-import logoImg from '../../../public/images/prixite-logo.png'
-// eslint-disable-next-line
-import { siteName } from '../../../data/data'
 import HeaderMenu from '../../Smart/HeaderMenu/HeaderMenu'
 import Title from '../../Presentational/Title/Title'
 

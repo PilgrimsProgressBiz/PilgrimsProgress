@@ -1,9 +1,10 @@
 import React from 'react'
 import { Box, Container, Divider, Stack, Typography } from '@mui/material'
 import { footerData } from '../../../data/data'
-import Title from '../../Presentational/Title/Title'
 import Image from 'next/image'
 import Link from 'next/link'
+import logoImg from '../../../public/images/prixite-logo.png'
+import { siteName } from '../../../data/data'
 
 const Footer = () => {
   const { copyright, info, joinUs, details } = footerData
@@ -12,11 +13,31 @@ const Footer = () => {
     <Box className="footer-container">
       <Container maxWidth="xl" className="footer-items">
         <Box className="footer-items-container">
-          <Title />
+          <Box className="title-container">
+            <Link href="/" className="title-link">
+              <Box className="title-image">
+                <Image 
+                  src={logoImg.src} 
+                  alt={siteName} 
+                  width={30} 
+                  height={30} 
+                  style={{ 
+                    position: 'relative',
+                    top: '-30px',
+                  }}
+                />
+              </Box>
+            </Link>
+          </Box>
           {details?.map(({ icon, desc }, index) => (
             <Stack direction={'row'} spacing={1} key={index}>
               <Box>
-                <Image src={icon.src} alt="icon" width={20} height={20} />
+                <Image 
+                  src={icon.src} 
+                  alt="icon" 
+                  width={20} 
+                  height={20}
+                />
               </Box>
               <Typography className="description">
                 {new RegExp(/^\S+@\S+\.\S+$/).test(desc) ? (

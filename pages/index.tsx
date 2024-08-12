@@ -88,6 +88,7 @@ export default function Home({
                   title={item.frontmatter.header}
                   description={item.frontmatter.description}
                   path={`/services/${item.slug}`}
+                  href={item.frontmatter.href}
                 />
               ))}
             </Grid>
