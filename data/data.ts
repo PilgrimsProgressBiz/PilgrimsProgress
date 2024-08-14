@@ -9,11 +9,6 @@ import TestimonialLeft from '../public/images/testimonial-left.svg'
 import TestimonialRight from '../public/images/testimonial-right.svg'
 import LinkdeinIcon from '../public/images/linkdein-icon.png'
 import InstagramIcon from '../public/images/instagram-icon.png'
-import aboutUsp1 from '../public/images/aboutUs-p1.png'
-import aboutUsp2 from '../public/images/aboutUs-p2.png'
-import aboutUsp3 from '../public/images/aboutUs-p3.png'
-import aboutUsp4 from '../public/images/aboutUs-p4.png'
-import aboutUsp5 from '../public/images/aboutUs-p5.png'
 
 
 /*********          Header Menu Data            ********** */
@@ -126,29 +121,7 @@ export const meetTheTeamData = {
       imageB: '/images/employees/Terri-Louise_new.jpg',
       description: `Lorem Ipsum Dolor sit amet here if needed`,
     }
-  ],
-  images: [
-    {
-      img: aboutUsp1,
-      className: 'img-p1',
-    },
-    {
-      img: aboutUsp2,
-      className: 'img-p2',
-    },
-    {
-      img: aboutUsp3,
-      className: 'img-p3',
-    },
-    {
-      img: aboutUsp4,
-      className: 'img-p4',
-    },
-    {
-      img: aboutUsp5,
-      className: 'img-p5',
-    },
-  ],
+  ]
 }
 
 

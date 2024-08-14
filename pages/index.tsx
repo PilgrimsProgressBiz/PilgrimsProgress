@@ -1,7 +1,8 @@
 import { Box, Container, Typography, Grid, Stack, Button } from '@mui/material'
 // eslint-disable-next-line
 import Image from 'next/image'
-import { meetTheTeamData, homeData, productsList } from '../data/data'
+import { homeData, productsList } from '../data/data'
+import React, { useState, useEffect } from 'react';
 // eslint-disable-next-line
 //import Chip from '@mui/material/Chip'
 import {servicesData } from '../data/data'
@@ -26,6 +27,7 @@ import Link from 'next/link'
 import { MDContent, Product } from '../types/interfaces'
 import { sortByDate, sortByIndex } from '../utils/sort'
 import { getMarkdownAllData, getMarkDownSingleData } from '../utils/markdown'
+import Popup from '../components/Presentational/HomeContainer/Popup'
 import {
   BLOGS_PATH,
   SERVICES_PATH,
@@ -44,7 +46,22 @@ export default function Home({
   const { title } = homeData
   const { servicesHeading, servicesAim } = servicesData
   const router = useRouter()
-  const images = meetTheTeamData.images
+
+  const [isPopupOpen, setPopupOpen] = useState(true);
+
+  useEffect(() => {
+    // Check if the popup has already been shown
+    const isPopupShown = localStorage.getItem('isPopupShown');
+
+    if (!isPopupShown) {
+      setPopupOpen(true);
+      localStorage.setItem('isPopupShown', 'true');
+    }
+  }, []);
+
+  const handleClosePopup = () => {
+    setPopupOpen(false);
+  };
 
   return (
     <>
@@ -54,6 +71,7 @@ export default function Home({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="home-page-container">
+        {isPopupOpen && <Popup onClose={handleClosePopup} />}
         <Container maxWidth="xl">
           <HomeContainer />
         </Container>
@@ -63,7 +81,6 @@ export default function Home({
             header={aboutUs.frontmatter.title}
             heading={aboutUs.frontmatter.header}
             description={aboutUs.frontmatter.description}
-            images={images}
           />
         </Container>
 
@@ -86,6 +103,7 @@ export default function Home({
                   key={item.frontmatter.index}
                   img={item.frontmatter.logo_image}
                   title={item.frontmatter.header}
+                  mini_description={item.frontmatter.mini_description}
                   description={item.frontmatter.description}
                   path={`/services/${item.slug}`}
                   href={item.frontmatter.href}
@@ -100,6 +118,7 @@ export default function Home({
                   img={item.frontmatter.logo_image}
                   title={item.frontmatter.header}
                   description={item.frontmatter.description}
+                  mini_description={item.frontmatter.mini_description}
                   path={`/services/${item.slug}`}
                 />
               ))}

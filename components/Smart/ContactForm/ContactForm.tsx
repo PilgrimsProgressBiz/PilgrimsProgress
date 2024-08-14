@@ -108,7 +108,7 @@ const handleForm = async (e: React.FormEvent<HTMLFormElement>) => {
               <option value="Counselling">Counselling</option>
               <option value="Young People Counselling">Young People Counselling</option>
               <option value="Family Therapy">Family Therapy</option>
-              <option value="UK Guardianship">UK Guardianship</option>
+              <option value="UK Guardianship">UK Educational Guardianship</option>
             </select>
           </Grid>
           <Grid item xs={100} md={100} className="input-field-container">

@@ -4,6 +4,8 @@ title: 'Pilgrims Progress - Executive Coaching'
 header: 'Executive Coaching'
 description: 'This service is provided by Jonathan Pilgrim'
 logo_image: '/images/services/counselling.png'
+mini_description: "Executive coaching is a personalized, one-on-one professional development process tailored for leaders, executives, and high-potential individuals within an organization. It focuses on enhancing leadership skills, improving performance, and achieving professional and personal growth. An executive coach works collaboratively with clients to identify their strengths, overcome challenges, and develop strategies to achieve their goals. This partnership helps executives gain self-awareness, clarify their vision, and make more effective decisions."
+
 ---
 
 ### What is Executive Coaching? 

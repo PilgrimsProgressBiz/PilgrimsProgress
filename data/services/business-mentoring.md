@@ -4,6 +4,7 @@ title: 'Pilgrims Progress - Business Mentoring'
 header: 'Business Mentoring'
 description: 'This service is provided by Jonathan Pilgrim'
 logo_image: '/images/services/counselling.png'
+mini_description: "Business mentoring and non-executive advisory services provide critical support and guidance to small and medium-sized enterprises (SMEs). These services help business owners and leaders navigate the complexities of running and growing their companies. Business mentoring involves experienced professionals offering their knowledge and expertise to guide business leaders, while non-executive advisory services involve appointing experienced advisors to provide strategic insights and oversight without being involved in daily operations. "
 ---
 
 ## What is Business Mentoring and Non-Executive Advisory for Small and Medium Companies? 

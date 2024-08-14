@@ -7,10 +7,11 @@ interface ServiceProps {
   img: string
   title: string
   description: string
+  mini_description: string
   path: string
   href? : null | string
 }
-const Service: React.FC<ServiceProps> = ({ img, title, description, path, href }) => {
+const Service: React.FC<ServiceProps> = ({ img, title, description, mini_description, path, href }) => {
   return (
     <Grid item sm={12} md={3} className="service">
       <Link href={href ?? path}>
@@ -34,8 +35,14 @@ const Service: React.FC<ServiceProps> = ({ img, title, description, path, href }
             {title}
           </Typography>
 
-          <Typography className="service-description">{description}</Typography>
-        </Box>
+          <Typography className="service-description">
+            {mini_description && mini_description.length > 200
+              ? `${mini_description.substring(0, 200)}...`
+              : mini_description}
+          </Typography>
+
+
+          </Box>
       </Link>
     </Grid>
   )

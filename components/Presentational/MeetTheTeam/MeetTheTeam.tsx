@@ -2,33 +2,23 @@ import React from 'react'
 import {Typography, Divider, Box } from '@mui/material'
 import { meetTheTeamData } from '../../../data/data'
 import Link from 'next/link'
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 
 interface MeetTheTeam {
   header: string
   heading: string
   description: string
-  images: {
-    img: StaticImageData
-    className: string
-  }[]
 }
 
 const MeetTheTeam: React.FC<MeetTheTeam> = ({
   header,
   heading,
-  description,
-  images
+  description
 }) => {
 
 
   return (
     <Box p="4rem 3rem" id="meet-the-team-section" className="about-us">
-      {images.map((image, index) => (
-        <Box className={`${image.className} img`} key={index}>
-          <Image src={image.img} alt="aboutus" layout="responsive" />
-        </Box>
-      ))}
       <Typography fontSize={30} fontWeight={600}>
         <span style={{ color: '#63AC45' }}>{header}</span>
       </Typography>

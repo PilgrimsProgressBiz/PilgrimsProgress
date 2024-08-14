@@ -4,6 +4,7 @@ title: 'Pilgrims Progress - Family Therapy'
 header: 'Family Therapy'
 description: 'This service is provided by Terri-Louise'
 logo_image: '/images/services/counselling.png'
+mini_description: "Family counselling is a therapeutic process designed to address and resolve issues that affect the health and functioning of a family unit. This type of counselling brings family members together to discuss and work through challenges, improve communication, and strengthen relationships. Whether facing a specific problem or simply seeking to enhance the family dynamic, family counselling provides a safe, supportive environment where each member’s voice is heard, and collective healing can occur. "
 ---
 
 ## What is Family Counselling? 
@@ -60,4 +61,4 @@ Family counselling is a therapeutic process designed to address and resolve issu
 
 At Pilgrims Progress we are committed to helping families create stronger, more meaningful connections. Our experienced and compassionate counsellors work closely with each family member to understand their unique needs and dynamics. We provide a safe and supportive environment where families can explore their challenges, improve communication, and strengthen their relationships. Whether you’re dealing with a specific issue or simply want to enhance your family’s well-being, we are here to guide you on your journey to a healthier, happier family life. Let us help you build the strong, connected family you desire. 
 
- 
+**Fees:** £100 per session, discounts available with block bookings

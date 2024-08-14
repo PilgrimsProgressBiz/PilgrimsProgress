@@ -12,7 +12,7 @@ import {
 import { SERVICES_PATH } from '../../utils/constants'
 
 const ServiceDetail = ({
-  frontmatter: { title, header, description },
+  frontmatter: { title, header},
   content,
 }: ServiceWithContent) => {
   return (
@@ -26,7 +26,6 @@ const ServiceDetail = ({
         <Box className="header">
           <Box className="heading">
             <Typography className="heading-text">{header}</Typography>
-            <Typography>{description}</Typography>
           </Box>
           <Box>
             <ContactButton text="Contact Us" />

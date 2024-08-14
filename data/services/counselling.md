@@ -4,6 +4,7 @@ title: 'Pilgrims Progress - Counselling'
 header: 'Counselling'
 description: 'Terri Louise specialises in working with children using techniques to understnad their perspective of the world.'
 logo_image: '/images/services/counselling.png'
+mini_description: "Adlerian counselors work collaboratively with clients to explore their life experiences, identify patterns, and understand the underlying motivations driving their behaviours. This therapeutic process encourages clients to develop a more positive and constructive lifestyle, promoting mental well-being and personal fulfillment."
 ---
 
 ## What is Counseling Using an Adlerian Individual Psychology Approach?

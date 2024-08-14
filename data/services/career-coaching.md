@@ -4,6 +4,7 @@ title: 'Pilgrims Progress - Career Coaching'
 header: 'Career Coaching'
 description: 'This service is provided by Jonathan Pilgrim'
 logo_image: '/images/services/counselling.png'
+mini_description: "Career coaching is a personalized, goal-oriented service designed to help individuals navigate their professional journeys with clarity and confidence. Whether you’re just starting out, considering a career change, or seeking to advance in your current role, career coaching provides the guidance, tools, and strategies needed to achieve your career objectives. A career coach works with you to assess your strengths, explore your options, set clear goals, and develop an actionable plan for success."
 ---
 ## What is Career Coaching? 
 
@@ -52,3 +53,5 @@ Career coaching is a personalized, goal-oriented service designed to help indivi
 
 At Pilgrims Progress, we are dedicated to helping you unlock your potential and achieve your career goals. Our experienced career coaches offer personalized guidance, practical advice, and actionable strategies tailored to your unique situation. Whether you’re seeking advancement, considering a career change, or looking to align your career with your passions, we’re here to support you every step of the way. Let us help you navigate your career journey with confidence and clarity, and empower you to achieve the success you deserve. Partner with us to take your career to the next level! 
  
+
+**Fees:** £100 per session discounts available with block bookings 

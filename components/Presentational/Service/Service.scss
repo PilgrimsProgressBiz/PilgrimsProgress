@@ -1,4 +1,7 @@
 .service {
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+
   .service-image-container {
     background: url('../../../public/images/serviceBackground.png');
     width: 48px;
@@ -12,4 +15,8 @@
     font-size: 13px;
     width: 95%;
   }
+}
+.service:hover {
+  background-color: rgb(237,245,236);
+
 }

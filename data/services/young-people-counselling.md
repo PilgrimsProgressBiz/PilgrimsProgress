@@ -4,6 +4,7 @@ title: 'Pilgrims Progress - Child Counselling'
 header: 'Child Counselling'
 description: 'This service is provided by Terri-Louise'
 logo_image: '/images/services/counselling.png'
+mini_description: "Child bereavement counselling is a specialized form of therapy designed to help children and adolescents cope with the loss of a loved one. This type of counselling provides a safe, supportive environment where young individuals can express their feelings, understand their emotions, and learn healthy ways to grieve. Trained counsellors use age-appropriate techniques to guide children through the complex process of mourning, ensuring they feel understood and supported during this difficult time. "
 ---
 
 ## What is Child Bereavement Counselling? 
@@ -54,5 +55,4 @@ Child bereavement counselling is a specialized form of therapy designed to help 
 At Pilgrims Progress, Terri-Louise understands the profound impact that the loss of a loved one can have on a child and their family. Our compassionate and experienced counsellors are dedicated to providing tailored support that meets the unique needs of each child and family. We use evidence-based techniques and a child-centred approach to help young individuals navigate their grief in a healthy and constructive manner. By partnering with us, you can ensure that your child receives the care and support they need to heal and grow after a loss. Let us help your family find comfort, strength, and resilience during this challenging time. 
 
  
-
-**Fees:** please ring to discuss typically £100 per session, concessions available 
+**Fees:** £100 per session discounts available with block bookings

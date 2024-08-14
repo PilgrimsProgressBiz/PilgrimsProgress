@@ -25,6 +25,7 @@ export interface ServicePost {
     index: number
     title: string
     header: string
+    mini_description: string
     description: string
     logo_image: string
     href: null | string

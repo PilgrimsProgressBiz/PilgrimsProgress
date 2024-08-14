@@ -4,6 +4,8 @@ title: 'Pilgrims Progress - Life Coaching'
 header: 'Life Coaching'
 description: 'This service is provided by Jonathan Pilgrim'
 logo_image: '/images/services/counselling.png'
+mini_description: "Family counselling is a therapeutic process designed to address and resolve issues that affect the health and functioning of a family unit. This type of counselling brings family members together to discuss and work through challenges, improve communication, and strengthen relationships. Whether facing a specific problem or simply seeking to enhance the family dynamic, family counselling provides a safe, supportive environment where each member’s voice is heard, and collective healing can occur. "
+
 ---
 
 ## What is Life Coaching? 
