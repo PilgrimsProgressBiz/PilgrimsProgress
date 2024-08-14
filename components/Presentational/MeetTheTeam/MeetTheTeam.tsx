@@ -57,7 +57,7 @@ const MeetTheTeam: React.FC<MeetTheTeam> = ({
                       fontWeight={300}
                       fontSize={11}                      
                     >
-                      {employee.description}
+                      
                     </Typography>
                   </div>
                 </Link>
