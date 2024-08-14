@@ -110,16 +110,14 @@ export const meetTheTeamData = {
       title: 'FCIPD, Assoc of Coaching and Master NLP',
       name: 'Jonathan Pilgrim',
       image: '/images/employees/Jonathan_new.jpg',
-      imageB: '/images/employees/Jonathan_new.jpg',
-      description: `Lorem ipsum dolor sit amet here if needed`,
+      imageB: '/images/employees/Jonathan_new.jpg'
     },
     {
       id: 2,
-      title: 'Lorem Ipsum',
+      title: 'Adlerian individual psychologist and counsellor',
       name: 'Terri-Louise Pilgrim',
       image: '/images/employees/Terri-Louise_new.jpg',
-      imageB: '/images/employees/Terri-Louise_new.jpg',
-      description: `Lorem Ipsum Dolor sit amet here if needed`,
+      imageB: '/images/employees/Terri-Louise_new.jpg'
     }
   ]
 }
