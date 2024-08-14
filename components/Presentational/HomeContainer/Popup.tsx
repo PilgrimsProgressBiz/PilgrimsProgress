@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
+import React, { FC } from 'react';
 import { Box } from '@mui/material';
 
-const Popup = ({ onClose }) => {
+interface PopupProps {
+  onClose: () => void;
+}
+
+const Popup: FC<PopupProps> = ({ onClose }) => {
   return (
     <Box
       onClick={onClose}
