@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import GoogleAnalytics from '../components/Smart/GoogleAnalytics'
 
 export default class CustomDocument extends Document {
   render() {
@@ -36,22 +37,7 @@ export default class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
             rel="stylesheet"
           />
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-C0JTNSKJN1`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){dataLayer.push(arguments);}
-                            gtag('js', new Date());
-                            gtag('config', 'G-C0JTNSKJN1', {
-                            page_path: window.location.pathname,
-                            });
-                        `,
-            }}
-          />
+          <GoogleAnalytics />
         </Head>
         <body>
           <Main />
