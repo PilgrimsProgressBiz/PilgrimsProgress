@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/Shared/layout/Layout'
 import favicon from '../public/favicon.ico'
+import GoogleAnalytics from '../components/Smart/GoogleAnalytics'
 import {
   createTheme,
   ThemeProvider,
@@ -64,6 +65,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="shortcut icon" type="image/x-icon" href={favicon.src} />
+        <GoogleAnalytics />
       </Head>{' '}
       <ThemeProvider theme={theme}>
         <Layout>

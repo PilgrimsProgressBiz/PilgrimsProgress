@@ -2,6 +2,7 @@ import { Box, Container, Typography, Grid, Stack, Button } from '@mui/material'
 // eslint-disable-next-line
 import Image from 'next/image'
 import { homeData, productsList } from '../data/data'
+import GoogleAnalytics from '../components/Smart/GoogleAnalytics'
 // import React, { useState, useEffect } from 'react';
 // eslint-disable-next-line
 //import Chip from '@mui/material/Chip'
@@ -69,6 +70,7 @@ export default function Home({
         <title>{title}</title>
         <meta name="prixite" content="Prixte" />
         <link rel="icon" href="/favicon.ico" />
+        <GoogleAnalytics />
       </Head>
       <div className="home-page-container">
         {/* {isPopupOpen && <Popup onClose={handleClosePopup} />} */}
