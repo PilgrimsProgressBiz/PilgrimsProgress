@@ -25,7 +25,7 @@ const ContactForm = () => {
 const handleForm = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
 
-  const res = await fetch('/api/send-email', {
+  const res = await fetch('https://formspree.io/f/xqazlavp', {
     body: JSON.stringify(form),
     headers: {
       'Content-Type': 'application/json',
