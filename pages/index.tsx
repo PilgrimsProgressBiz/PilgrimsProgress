@@ -70,6 +70,7 @@ export default function Home({
         <title>{title}</title>
         <meta name="prixite" content="Prixte" />
         <link rel="icon" href="/favicon.ico" />
+	<meta name="google-site-verification" content="Efe59lTNFbX5MeVYA1rvId5BU66CLyn0SvpUQPyMWqg" />
         <GoogleAnalytics />
       </Head>
       <div className="home-page-container">
