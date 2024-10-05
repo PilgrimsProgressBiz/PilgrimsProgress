@@ -19,4 +19,4 @@ We offer expert advice, application guidance, and continuous support throughout 
 ### [British Academic Guardians (click here)](https://www.britishacademicguardians.com/online-ordering)
 
 
-[![Brochure Preview](http://localhost:3000/image.png)](http://localhost:3000/Cert_47059_72472_1.pdf)
+[![Brochure Preview](http://pilgrimsprogress.biz/image.png)](http://pilgrimsprogress.biz/Cert_47059_72472_1.pdf)
